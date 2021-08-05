@@ -29,7 +29,7 @@ async function handler(req, res) {
 
     try {
       
-      // client = await MongoClient.connect('mongodb+srv://igootle:ZCzorR2x5d4nBvHS@cluster0.1lsfl.mongodb.net/my-site?retryWrites=true&w=majority') 
+
       client = await MongoClient.connect(connectionString)
       
     } catch (error) {
